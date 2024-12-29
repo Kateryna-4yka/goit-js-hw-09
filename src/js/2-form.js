@@ -41,4 +41,8 @@ formInfo.addEventListener('input', (event)=>{
         else { console.log(formData);
         localStorage.removeItem(`feedback-form-state`);
         formInfo.reset();}
+        formData = {
+            email: "",
+            message: "",
+          };
     })
